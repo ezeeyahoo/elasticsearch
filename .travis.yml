@@ -10,4 +10,4 @@ jdk: oraclejdk8
 install: skip
 
 script: 
-  - ./gradlew build --scan -s
+  - ./gradlew localDistro
